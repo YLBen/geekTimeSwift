@@ -13,8 +13,8 @@
 		C03236AC23EE9EF200DC4DF1 /* DealListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03236AB23EE9EF200DC4DF1 /* DealListCell.swift */; };
 		C03236AE23EEA0AB00DC4DF1 /* DealListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03236AD23EEA0AB00DC4DF1 /* DealListViewController.swift */; };
 		C0A4629923E138FB006B3B4A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A4629823E138FB006B3B4A /* BannerView.swift */; };
+		C0AB06EB24499243001F8C5F /* tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AB06EA24499243001F8C5F /* tab.swift */; };
 		C0B5FE6F23E917DF005B4DF9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B5FE6E23E917DF005B4DF9 /* DetailViewController.swift */; };
-		C0B5FE7323E94EFB005B4DF9 /* tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B5FE7223E94EFA005B4DF9 /* tab.swift */; };
 		C0D67B0023E1305300038C5E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D67AFF23E1305300038C5E /* HomeViewController.swift */; };
 		C0D67B0223E1306200038C5E /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D67B0123E1306200038C5E /* MineViewController.swift */; };
 		C0EA396923DC2AEF000B7C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA396823DC2AEF000B7C23 /* AppDelegate.swift */; };
@@ -61,8 +61,8 @@
 		C03236AB23EE9EF200DC4DF1 /* DealListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListCell.swift; sourceTree = "<group>"; };
 		C03236AD23EEA0AB00DC4DF1 /* DealListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListViewController.swift; sourceTree = "<group>"; };
 		C0A4629823E138FB006B3B4A /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		C0AB06EA24499243001F8C5F /* tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tab.swift; sourceTree = "<group>"; };
 		C0B5FE6E23E917DF005B4DF9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		C0B5FE7223E94EFA005B4DF9 /* tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = tab.swift; path = /Users/lvyanliang/Desktop/geekTimeSwiftUI/Component/tab.swift; sourceTree = "<absolute>"; };
 		C0D67AFF23E1305300038C5E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C0D67B0123E1306200038C5E /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		C0EA396523DC2AEF000B7C23 /* geekTimeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geekTimeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,9 +134,9 @@
 		C0A4629723E138BE006B3B4A /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				C0AB06EA24499243001F8C5F /* tab.swift */,
 				C03236A923EE9C6800DC4DF1 /* ProductList.swift */,
 				C03236A523EDABAE00DC4DF1 /* CommonCell.swift */,
-				C0B5FE7223E94EFA005B4DF9 /* tab.swift */,
 				C0A4629823E138FB006B3B4A /* BannerView.swift */,
 				C03236A723EE94BD00DC4DF1 /* CommonList.swift */,
 				C03236AB23EE9EF200DC4DF1 /* DealListCell.swift */,
@@ -390,8 +390,8 @@
 				C03236AE23EEA0AB00DC4DF1 /* DealListViewController.swift in Sources */,
 				C0EA39A523DC3938000B7C23 /* R.generated.swift in Sources */,
 				C0EA39B523DF1E66000B7C23 /* LoginViewController.swift in Sources */,
+				C0AB06EB24499243001F8C5F /* tab.swift in Sources */,
 				C0EA39AC23DC6033000B7C23 /* FakeData.swift in Sources */,
-				C0B5FE7323E94EFB005B4DF9 /* tab.swift in Sources */,
 				C0B5FE6F23E917DF005B4DF9 /* DetailViewController.swift in Sources */,
 				C0A4629923E138FB006B3B4A /* BannerView.swift in Sources */,
 				C0D67B0223E1306200038C5E /* MineViewController.swift in Sources */,
