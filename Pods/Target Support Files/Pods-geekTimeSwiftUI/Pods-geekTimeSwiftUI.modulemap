@@ -1,0 +1,6 @@
+module Pods_geekTimeSwiftUI {
+  umbrella header "Pods-geekTimeSwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
